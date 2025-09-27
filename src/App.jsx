@@ -1,21 +1,18 @@
-// import { useState } from 'react'
-import './App.css';
-import ContactForm from './Components/ContactForm/ContactForm';
-import ContactHeader from './Components/ContactHeader/ContactHeader';
-import Navigation from './Components/Navigation/Navigation';
+import "./App.css";
+import ContactForm from "./Components/ContactForm/ContactForm";
+import ContactHeader from "./components/ContactHeader/ContactHeader";
+import Navigation from "./components/Navigation/Navigation";
+
 function App() {
-
   return (
-    <>
-      <Navigation/>
-      <main className='main_container'>
-      <ContactHeader/>
-      <ContactForm/>
+    <div>
+      <Navigation />
+      <main className="main_container">
+        <ContactHeader />
+        <ContactForm />
       </main>
-
-      
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
